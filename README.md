@@ -165,9 +165,9 @@
 - **Documentation**: Include a README file with setup instructions, features, and any other relevant information.
 
 ### Evaluation Criteria
-- **Functionality**: How effectively does the application facilitate remote healthcare services?
+- **Functionality**: How effectively does the application facilitate services?
 - **Code Quality**: Is the code clean, efficient, and well-organized?
-- **User Experience**: Is the application easy to navigate and use for both doctors and patients?
+- **User Experience**: Is the application easy to navigate and use for the users ?
 - **Security and Privacy**: How well does the application protect user data and ensure privacy?
 - **Creativity and Innovation**: How creative and innovative are the solutions implemented to address the project challenges and the features implemented?
 
