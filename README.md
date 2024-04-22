@@ -1,92 +1,91 @@
-# Final Project Template for Java Projects
+# Final Project Template: Java Projects Overview
 
-## Overview
+## General Instructions
 
-This template is designed to guide students through the development of a Java-based application as their final project. The project will incorporate essential software development practices such as using an agile methodology, version control, continuous integration, and deployment to a cloud environment.
+### Project Management and Development Practices
+- **Agile Board**: Utilize an agile board (e.g., Trello) to manage and track project tasks.
+- **Version Control**: Use Git on GitHub for version control. Ensure to follow proper software development processes including branching and pull requests.
+- **Code Reviews**: Implement code reviews before merging pull requests to ensure code quality and consistency.
+- **Testing**: Write relevant test cases for your code and ensure they pass before code merges.
+- **Linting**: Use a linting tool to maintain code quality and style consistency.
+- **Deployment**: Deploy the application in a cloud environment (GCP or AWS).
+- **Database**: Utilize PostgreSQL for data storage in the cloud environment, integrating via ORM libraries.
+- **Authentication**: Implement secure API endpoints with authentication.
+- **Role Distribution**: Optionally, distribute roles among team members (e.g., product manager, engineering lead) and consider rotating these roles to simulate real-world scenarios.
 
-## Project Requirements
+### Common Requirements for All Java Projects
+1. **Authentication System**: Implement a registration and login page.
+2. **Security**: Utilize security dependencies to enhance application safety.
+3. **External API Integration**: Connect to an external service using a Java library.
+4. **Testing**: Develop basic test classes.
+5. **Database**: Use PostgreSQL for data storage.
+6. **GitHub Features**: Utilize GitHub project management features.
+7. **Version Control System**: Use GitHub for all code and documentation.
+8. **Cloud Deployment**: Deploy the application to a cloud platform offering a free tier.
 
-### Common Requirements
+## Specific Project Details
 
-- **Authentication and Authorization**: Implement a registration and login page using secure practices.
-- **Security**: Utilize a security framework or library to enhance application security.
-- **Currency Conversion**: Integrate with the `currency-converter-api` to provide currency exchange services.
-- **Testing**: Develop basic test classes to ensure functionality works as expected.
-- **Database**: Use PostgreSQL for data storage.
-- **Project Management**: Utilize GitHub for version control and project management (issues, PRs, projects).
-- **Deployment**: Deploy the application to a cloud provider that offers a free tier (e.g., AWS, GCP).
+### Java Project #1: Banking Application
 
-### Specific Project Details
+#### Features & Capabilities
+1. **Secure Authentication and Login**
+   - Encrypt or hash passwords and PINs.
+   - Implement email confirmation for login.
+   - Limit login attempts and manage sessions securely.
 
-#### 1. Banking Application
+2. **Account Management**
+   - Display all accounts (active and inactive).
+   - Check balances and transaction history.
+   - Enable funds transfer and manage saved payments.
+   - Implement multi-currency accounts and savings accounts with specific rules.
 
-##### Features & Capabilities
+#### Bonus Features
+- **Multi-Currency Accounts**: Allow users to open accounts in different currencies and transfer money between them.
+- **Savings Account**: Enable users to open and manage savings accounts with visibility on compatible features.
 
-- **Secure Authentication and Login**
-  - Encrypt or hash passwords and PINs.
-  - Implement email confirmation for login.
-  - Limit login attempts and manage sessions securely.
+### Java Project #2: Expense Management System
 
-- **Account Management**
-  - Display all user accounts (active/inactive).
-  - Check balances and display transaction history.
-  - Enable funds transfer and manage saved/quick payments.
-
-##### Bonus Features
-
-- **Multi-Currency Accounts**: Allow users to open accounts in different currencies and transfer money between them using the currency exchange service.
-- **Savings Account**: Implement features specific to savings accounts like blocked transactions.
-
-#### 2. Expense Management System
-
-##### Objectives
-
+#### Objectives
 - Streamline the process of managing employee expenses from submission to reimbursement.
 
-##### Features & Capabilities
+#### Features & Capabilities
+- Track and capture employee receipts using smartphones.
+- Centralize receipt management on a dashboard.
+- Document and manage spending limits and company policies.
+- Integrate with corporate credit cards and manage approvals.
 
-- **Receipt Tracking**: Allow employees to upload receipts via smartphones.
-- **Spending Policies**: Document and manage spending limits and company policies.
-- **Approvals**: Route receipts for approval and manage the approval process.
+#### Bonus Features
+- **Expense Statistics**: Show daily expense statistics.
+- **Category Filtering**: Allow filtering expenses by categories to identify cost-heavy areas.
 
-##### Bonus Features
+### Java Project #3: Employee Management System
 
-- **Expense Statistics**: Display statistics of expenses per day.
-- **Expense Filtering**: Enable filtering of expenses by category.
-
-#### 3. Employee Management System
-
-##### Objectives
-
+#### Objectives
 - Manage employee details, time tracking, and leave management efficiently.
 
-##### Features & Capabilities
+#### Features & Capabilities
+1. **Company and Department Setup**
+   - Create companies and departments with initial setup of supervisors.
 
-- **Company and Department Setup**: Allow creation of companies and departments with initial setup of employees.
-- **Employee Registration and Profile Management**: Manage new employee registration, department assignment, and profile setup.
-- **Time and Attendance**: Implement check-in/check-out functionality and manage attendance records.
+2. **Employee Registration and Profile Management**
+   - Manage new employee additions, department assignments, and profile setups.
 
-##### Bonus Features
+3. **Time & Attendance Management**
+   - Facilitate employee check-ins and track attendance.
 
-- **Leave Management**: Implement a system for employees to request leaves and for supervisors to approve or reject these requests.
+#### Bonus Features
+- **Leave Management**: Implement a system for managing and approving leave requests.
 - **Meeting Scheduling**: Integrate with Google Calendar API to schedule meetings with various configurations.
 
-## Development Process
+### Submission Requirements
+- **Code Repository**: Provide a link to the GitHub repository.
+- **Live Demo**: Deploy the application and provide access to the live demo.
+- **Documentation**: Include a README file with setup instructions, features, and any other relevant information.
 
-1. **Project Setup**: Set up the project repository on GitHub. Initialize with README, .gitignore, and basic project structure.
-2. **Task Management**: Create tasks in GitHub Projects or Trello. Organize tasks into sprints.
-3. **Development**: Follow the feature-branch workflow. Each new feature should be developed in a separate branch.
-4. **Code Review**: Use pull requests for code review. Merge features into the main branch after approval.
-5. **Testing**: Write unit and integration tests for each feature. Use a CI tool to automate testing.
-6. **Deployment**: Set up continuous deployment to a cloud service. Ensure the application is deployed securely and is accessible.
-7. **Documentation**: Document the setup process, how to run the application, and any usage instructions.
-
-## Evaluation Criteria
-
-- **Functionality**: Does the application perform the tasks it is supposed to?
+### Evaluation Criteria
+- **Functionality**: How well does the application work?
 - **Code Quality**: Is the code clean, well-organized, and properly commented?
-- **Use of Technologies**: Are the required technologies and frameworks used appropriately?
-- **Security Practices**: Are security best practices followed?
-- **Testing and Deployment**: Is the application well-tested and deployed successfully?
+- **User Experience**: Is the application easy to use and visually appealing?
+- **Creativity and Innovation**: How creative and innovative are the features implemented?
 
-This template provides a structured approach to developing a robust Java application, incorporating modern development practices and tools.
+This template provides a structured approach to developing Java-based applications with specific features and capabilities, ensuring students are exposed to real-world software development practices.
