@@ -76,7 +76,7 @@
 
 #### Bonus Features
 - **Leave Management**: Implement a system for managing and approving leave requests.
-- **Meeting Scheduling**: Integrate with Google Calendar API to schedule meetings with various configurations.
+- **Meeting Scheduling**: Integrate with Calendar API to schedule meetings with various configurations.
 
 
 
