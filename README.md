@@ -155,7 +155,7 @@
    - Access controls to ensure patient confidentiality and data security.
 
 #### Bonus Features
-- **Symptom Checker**: Integrate an AI-based symptom checker to help patients identify potential health issues before consulting a doctor.
+- **Health Monitoring Tools**: Implement basic health monitoring tools that allow patients to input daily health metrics such as temperature, blood pressure, and symptoms. These inputs can be tracked over time and viewed by both the patient and their doctor to monitor health trends without the need for advanced AI integration.
 - **Health Tips and Notifications**: Provide health tips and send notifications for follow-up appointments or medication reminders.
 
 ### Submission Requirements
