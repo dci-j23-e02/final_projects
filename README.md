@@ -160,6 +160,7 @@
 
 ### Submission Requirements
 - **Code Repository**: Provide a link to the GitHub repository.
+- **Unit Testing**: Ensure that all critical functionalities of the application are covered by unit tests. Provide documentation on how to run these tests and include test results in your submission.
 - **Live Demo**: Deploy the application and provide access to the live demo.
 - **Documentation**: Include a README file with setup instructions, features, and any other relevant information.
 
@@ -168,35 +169,7 @@
 - **Code Quality**: Is the code clean, efficient, and well-organized?
 - **User Experience**: Is the application easy to navigate and use for both doctors and patients?
 - **Security and Privacy**: How well does the application protect user data and ensure privacy?
+- **Creativity and Innovation**: How creative and innovative are the solutions implemented to address the project challenges and the features implemented?
 
-This E-HealthCare Management System project is designed to address the needs of remote healthcare services, which became particularly crucial during the 2020 pandemic. It offers a comprehensive solution for managing patient data, facilitating virtual consultations, and handling prescriptions, thereby enhancing the efficiency and safety of healthcare delivery.
-
-### Submission Requirements
-- **Code Repository**: Provide a link to the GitHub repository.
-- **Live Demo**: Deploy the application and provide access to the live demo.
-- **Documentation**: Include a README file with setup instructions, features, and any other relevant information.
-
-### Evaluation Criteria
-- **Functionality**: How well does the application meet the needs outlined in the objectives?
-- **Code Quality**: Is the code efficient, maintainable, and well-documented?
-- **User Experience**: Does the application provide a smooth and intuitive user interface?
-- **Innovation**: How innovative are the solutions implemented to address the project challenges?
-
-These additional projects expand the scope of the Java projects template to cover diverse fields such as e-commerce, social media management, and intelligent traffic systems, providing students with a broad range of real-world applications to develop their skills in software development and system integration.
-
-
-
-
-
-### Submission Requirements
-- **Code Repository**: Provide a link to the GitHub repository.
-- **Live Demo**: Deploy the application and provide access to the live demo.
-- **Documentation**: Include a README file with setup instructions, features, and any other relevant information.
-
-### Evaluation Criteria
-- **Functionality**: How well does the application work?
-- **Code Quality**: Is the code clean, well-organized, and properly commented?
-- **User Experience**: Is the application easy to use and visually appealing?
-- **Creativity and Innovation**: How creative and innovative are the features implemented?
 
 This template provides a structured approach to developing Java-based applications with specific features and capabilities, ensuring students are exposed to real-world software development practices.
