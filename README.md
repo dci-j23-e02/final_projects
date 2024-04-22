@@ -49,10 +49,11 @@
 - Streamline the process of managing employee expenses from submission to reimbursement.
 
 #### Features & Capabilities
-- Track and capture employee receipts using smartphones.
+- Track and capture employee receipts.
 - Centralize receipt management on a dashboard.
 - Document and manage spending limits and company policies.
 - Integrate with corporate credit cards and manage approvals.
+- send reports and statistics via email.
 
 #### Bonus Features
 - **Expense Statistics**: Show daily expense statistics.
